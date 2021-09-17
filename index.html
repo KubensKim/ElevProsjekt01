@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stemmeteller</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Stem på et parti for stortingsvalg!</h1>
+    <h2>Velg et parti</h2>
+    <div id="partivalg">
+        <form>
+              <input type="radio" id="frp" name="parti" value="FRP">
+              <label for="frp">Fremskritspartiet</label><br>
+              <input type="radio" id="mdg" name="parti" value="MDG">
+              <label for="mdg">Miljøpartiet de grønne</label><br>
+              <input type="radio" id="høyre" name="parti" value="HØYRE">
+              <label for="høyre">Høyre</label><br>
+              <input type="radio" id="venstre" name="parti" value="venstre">
+              <label for="venstre">Venstre</label><br>
+              <input type="radio" id="krf" name="parti" value="KRF">
+              <label for="krf">Kristli folkeparti</label><br>
+              <input type="radio" id="sv" name="parti" value="SV">
+              <label for="SV">Sosialistisk Venstreparti</label><br>
+              <input type="radio" id="senterpartiet" name="parti" value="SENTERPARTIET">
+              <label for="senterpartiet">Senterpartiet</label><br>
+              <input type="radio" id="arbeiderpartiet" name="parti" value="ARBEIDERPARTIET">
+              <label for="arbeiderpartiet">Arbeiderpartiet</label><br>
+              <input type="radio" id="rødt" name="parti" value="RØDT">
+              <label for="rødt">Rødt</label><br>
+             <button type="button"  onclick="someFunc()" id="knapp">Stem</button> 
+        </form>
+    </div>
+    <div id="result"></div>
+    <div id="piechart"></div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</body>
+<script src="js/script.js"></script>
+</html>
