@@ -1,0 +1,65 @@
+html {
+    background-image: url(IMG/Untitled-2.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+img {
+    width: 300px;
+}
+.cards1 .cardg1 {
+    margin-bottom: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card1{
+    width: 300px;
+    border-style: solid;
+
+}
+.card1t {
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+.card1t h1{
+    margin-bottom: -15px;
+}
+.card-text {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line1 {
+    margin-right: 40px;
+    background-color: black;
+    width: 3px;
+    height: 55px;
+    margin-top: 15px;
+}
+.card2t {
+    margin-right: 40px;
+}
+.cardg1 .card2, .card3{
+    width: 300px;
+    border-style: solid;
+    margin-left: 100px;
+}
+.cardg1{
+    display: flex;
+}
+
+.card1 button, .card2 button, .card3 button{
+    width: 100%;
+}
+.cards3 .card2t h1.card22{
+    font-size: 25px;
+}

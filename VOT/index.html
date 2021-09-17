@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stem for ditt parti!</title>
+</head>
+<body>
+
+    <h2 style="text-align: center; font-size: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Partier</h2>
+    <hr style="margin: 50px; height: 2px; background-color: rgb(0, 0, 0); color: rgb(0, 0, 0);">
+
+    <div class="cards1">
+        <div class="cardg1">
+            <h1></h1>
+            <div class="card1">
+                <img src="img/rødt.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone1">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>RØDT</h1>
+                    </div>
+                </div>
+                <button onclick="btn1()"><h1>VOTE</h1></button>
+                
+            </div>
+            <div class="card2">
+                <img src="img/sv.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone2">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>SV</h1>
+                    </div>
+                </div>
+                <button onclick="btn2()"><h1>VOTE</h1></button>
+            </div>
+    
+            <div class="card3" >
+                <img src="img/ap.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone3">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>AP</h1>
+                    </div>
+                </div>
+                <button onclick="btn3()"><h1>VOTE</h1></button>
+            </div>         
+    </div>
+
+    <div class="cards2">
+        <div class="cardg1">
+            <div class="card1">
+                <img src="img/sp.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone4">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>SP</h1>
+                    </div>
+                </div>
+                <button onclick="btn4()"><h1>VOTE</h1></button>
+                
+            </div>
+            <div class="card2">
+                <img src="img/mdg.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone5">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>MDG</h1>
+                    </div>
+                </div>
+                <button onclick="btn5()"><h1>VOTE</h1></button>
+            </div>
+    
+            <div class="card3">
+                <img src="img/krf.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone6">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>KRF</h1>
+                    </div>
+                </div>
+                <button onclick="btn6()"><h1>VOTE</h1></button>
+            </div>   
+               
+    </div>
+    <div class="cards3">
+        <div class="cardg1">
+            <div class="card1">
+                <img src="img/venstre.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone7">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1 class="card22">VENSTRE</h1>
+                    </div>
+                </div>
+                <button onclick="btn7()"><h1>VOTE</h1></button>
+            </div>
+            <div class="card2">
+                <img src="img/høyre.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone8">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>HØYRE</h1>
+                    </div>
+                </div>
+                <button onclick="btn8()"><h1>VOTE</h1></button>
+            </div>
+    
+            <div class="card3">
+                <img src="img/frp.jpg" alt=""> <br>
+                <div class="card-text">
+                    <div class="card1t">
+                        <h1 id="thisone9">0</h1>
+                        <h2>VOTES</h2>
+                    </div>
+                    <div class="line1"></div>
+                    <div class="card2t">
+                        <h1>FRP</h1>
+                    </div>
+                </div>
+                <button onclick="btn9()"><h1>VOTE</h1></button>
+            </div>         
+    </div>
+
+
+    <script href="js.js">
+
+
+
+function doit(){
+    document.getElementById("thisone1").innerHTML = "you";
+  }
+
+  function btn1(){
+    var foo = document.getElementById('thisone1').innerHTML;
+    foo++;
+    document.getElementById('thisone1').innerHTML = foo;
+  }
+
+
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone2").innerHTML = "you";
+  }
+
+  function btn2(){
+    var foo = document.getElementById('thisone2').innerHTML;
+    foo++;
+    document.getElementById('thisone2').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone3").innerHTML = "you";
+  }
+
+  function btn3(){
+    var foo = document.getElementById('thisone3').innerHTML;
+    foo++;
+    document.getElementById('thisone3').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone4").innerHTML = "you";
+  }
+
+  function btn4(){
+    var foo = document.getElementById('thisone4').innerHTML;
+    foo++;
+    document.getElementById('thisone4').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone5").innerHTML = "you";
+  }
+
+  function btn5(){
+    var foo = document.getElementById('thisone5').innerHTML;
+    foo++;
+    document.getElementById('thisone5').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone6").innerHTML = "you";
+  }
+
+  function btn6(){
+    var foo = document.getElementById('thisone6').innerHTML;
+    foo++;
+    document.getElementById('thisone6').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone7").innerHTML = "you";
+  }
+
+  function btn7(){
+    var foo = document.getElementById('thisone7').innerHTML;
+    foo++;
+    document.getElementById('thisone7').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone8").innerHTML = "you";
+  }
+
+  function btn8(){
+    var foo = document.getElementById('thisone8').innerHTML;
+    foo++;
+    document.getElementById('thisone8').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+function doit(){
+    document.getElementById("thisone9").innerHTML = "you";
+  }
+
+  function btn9(){
+    var foo = document.getElementById('thisone9').innerHTML;
+    foo++;
+    document.getElementById('thisone9').innerHTML = foo;
+  }
+
+  
+//__________________________________________________________________
+
+
+
+    </script>
+</body>
+</html>

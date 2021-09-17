@@ -1,0 +1,8 @@
+Må nevne at nettsiden er ikke i nærheten av ferdig, men jeg har utforsket hvordan .php er og hvordan man bruker Sublime Text.
+Samtidig følgte jeg en tutorial for Xampp som er sånn database for nettsiden for å lagre og lage flere muligheter med .php
+
+jeg lærte noen ting fra den Xampp og .php språket da, det var ikke bare wasted time liksom.
+
+
+
+Og hvis ikke folk vet hvem jeg er, jeg er Danny.
