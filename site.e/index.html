@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Animation Effects</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="loader">
+                <div class="dot" style="--i:0;"></div>
+                <div class="dot" style="--i:1;"></div>
+                <div class="dot" style="--i:2;"></div>
+                <div class="dot" style="--i:3;"></div>
+                <div class="dot" style="--i:4;"></div>
+                <div class="dot" style="--i:5;"></div>
+                <div class="dot" style="--i:6;"></div>
+                <div class="dot" style="--i:7;"></div>
+                <div class="dot" style="--i:8;"></div>
+                <div class="dot" style="--i:9;"></div>
+            </div>
+            <h2 id="x02" style="visibility: hidden;">...Loading...</h2>
+            <h2 id="x03" style="visibility: hidden;">n.z.d ArtGallery</h2>
+            <div class="wrapper">
+                <a id="butn3" href="login.php" class="button" style="color: rgb(0, 255, 21);"><p class="ready">Ready!</p></a>
+              </div>
+              
+              <script>
+                  
+                  function showdiv()
+                  {
+                      document.getElementById("x02").style.visibility="visible";
+                      document.getElementById("x03").style.visibility="visible";
+                  }
+                  setTimeout("showdiv()", 1000);
+                  function hidediv()
+                  {
+                      document.getElementById("x02").style.visibility="hidden";
+                      document.getElementById("x03").style.visibility="hidden";
+                  }
+                  setTimeout("hidediv()", 7000);
+                  
+              </script>
+              <script>
+
+                function showbutton()
+                  {
+                      document.getElementById("butn3").style.visibility="visible";
+                  }
+                  setTimeout("showbutton()", 7000);
+
+                function hidebutton()
+                  {
+                    document.getElementById("butn3").style.visibility="hidden";
+                  }
+                  setTimeout("hidebutton()", 0);
+                  
+              </script>
+            <div class="loader">
+                <div class="dot" style="--i:0;"></div>
+                <div class="dot" style="--i:1;"></div>
+                <div class="dot" style="--i:2;"></div>
+                <div class="dot" style="--i:3;"></div>
+                <div class="dot" style="--i:4;"></div>
+                <div class="dot" style="--i:5;"></div>
+                <div class="dot" style="--i:6;"></div>
+                <div class="dot" style="--i:7;"></div>
+                <div class="dot" style="--i:8;"></div>
+                <div class="dot" style="--i:9;"></div>
+        </section>
+    </body>
+</html>
